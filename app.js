@@ -2,9 +2,20 @@ let buttonAnswer = document.getElementById("answer");
 let ballAnswerEl = document.getElementById("ballAnswer");
 
 
-function answer() {
+function prediction() {
+   let userQuestion = prompt ("Ask me ANYTHING");
+   let questionEl = document.getElementById("question");
+   questionEl.textContent = userQuestion;
+
+   console.log(userQuestion);
+}
+
+
+
+function answer() {      
    let randomNumber = Math.floor(Math.random() * 8);
    let eightBall = "";
+
       switch (randomNumber) {
             case 0:
                eightBall = " It is certain";
@@ -34,16 +45,16 @@ function answer() {
    ballAnswerEl.textContent = "The magic ball says : " + eightBall;
    console.log(eightBall);
 }
-
 answer();
+
+
 
 function reset() {
    ballAnswerEl.textContent = "The magic ball says : ";
+   questionEl = document.getElementById("question");
+   questionEl.textContent = "Click HERE to ask anything";
 }
-
 reset();
-
-
 
 
 

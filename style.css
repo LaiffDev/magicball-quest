@@ -15,7 +15,7 @@ body{
    background-size:contain;
    background-repeat: no-repeat;
    */
-   height: 100vh;
+   height: 95vh;
    background-color: #5c2870;
 }
 
@@ -29,9 +29,9 @@ header{
 
 header h1{
    color: black;
-   padding: 10px; 
-   font-size: 3rem;
+   font-size: 6rem;
    text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header img{
@@ -44,11 +44,25 @@ header img{
    top: 150px;
 }
 
-.form h2{
+.form h1{
    color: white;
    padding: 5px;
-   font-size: 2rem;
+   font-size: 3rem;
    margin-bottom: 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 2px;
+}
+
+.form h2{
+   color: white;
+   padding: 10px;
+   margin-bottom: 20px;
+   font-style: italic;
+   cursor: pointer;
+}
+
+.form h3{
+   font-style: italic;
 }
 
 input{
