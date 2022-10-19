@@ -1,0 +1,88 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+   margin: 0 auto;
+   text-align: center;
+   /* background-image: url(images/cristallo.jpg);
+   background-position:center;
+   background-size:contain;
+   background-repeat: no-repeat;
+   */
+   height: 100vh;
+   background-color: #5c2870;
+}
+
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   padding: 5px;
+}
+
+header h1{
+   color: black;
+   padding: 10px; 
+   font-size: 3rem;
+   text-align: center;
+}
+
+header img{
+   width: 120px;
+   height: 120px;
+}
+
+.form{
+   position: relative;
+   top: 150px;
+}
+
+.form h2{
+   color: white;
+   padding: 5px;
+   font-size: 2rem;
+   margin-bottom: 10px;
+}
+
+input{
+   width: 400px;
+   padding: 10px;
+   text-align: center;
+   margin-top: 20px;
+   border: 1.5px solid black;
+}
+
+button{
+   background: #5c2870;
+   padding: 12px;
+   color: black;
+   font-size: 15px;
+   cursor: pointer;
+   margin-bottom: 200px;
+   transition: all 0.5s;
+   margin: 5px;
+   width: 200px;
+}
+
+button:hover{
+background-color: black;
+color: white;
+}
+
+.form h3{
+   color: white;
+   margin-top: 20px;
+}
+
+footer{
+   text-align: center;
+   padding: 5px;
+   font-weight: 500;
+}
